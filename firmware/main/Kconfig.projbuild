@@ -1,0 +1,11 @@
+menu "Fleet OTA"
+
+    config FLEET_WIFI_SSID
+        string "Wi-Fi network name"
+        default ""
+
+    config FLEET_WIFI_PASSWORD
+        string "Wi-Fi password"
+        default ""
+
+endmenu
